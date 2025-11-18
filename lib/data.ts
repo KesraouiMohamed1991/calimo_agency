@@ -538,6 +538,14 @@ export const socials: Social[] = [
 
 export const projects: Project[] = [
 
+    {
+    title: "Klineme",
+    description:
+      "Un site vitrine moderne pour Klineme, une startup innovante dans le domaine du nettoyage. Le site met en avant les solutions de l'entreprise avec un design épuré, des animations engageantes et une navigation fluide.",
+    year: "2025",
+    tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    url: "https://klineme.fr",
+  },
 
 
 
@@ -697,45 +705,49 @@ export const faqs: FAQ[] = [
 
 export const pricingPlans: PricingPlan[] = [
   {
-    name: "Site vitrine simple",
-    tagline: "Mettre en ligne une présence claire et impactante en quelques semaines.",
-    priceMonthly: 999,
-    priceYearly: 999 * 12 * 0.85,
-    ctaLabel: "Réserver un appel",
+    name: "Site Web One Page",
+    tagline: "Une page unique, design sur-mesure pour présenter l’essentiel avec fluidité.",
+    customLabel: "990€ TTC",
+    ctaLabel: "Je veux en parler !",
     ctaHref: process.env.NEXT_PUBLIC_CALENDLY_URL ?? "https://cal.com/calimo-agency/30min",
-    ctaNote: "Intéressé(e) par l'offre Site vitrine simple",
+    ctaNote: "Intéressé(e) par l'offre Site Web One Page",
     features: [
-      "Atelier cadrage express (positionnement, objectifs, contenus)",
-      "Design responsive 3-5 pages avec animations légères",
-      "Intégration Next.js + CMS simplifié pour modifier textes et médias",
-      "Optimisation SEO technique de base et performance Core Web Vitals",
-      "Formation de prise en main (1 h) + support Slack / email (J+1)",
+      "Design sur-mesure",
+      "Structure fluide sur une seule page",
+      "Fonctionnalités essentielles",
+      "Gestion des cookies",
+      "Accessibilité",
+      "Tutoriels vidéos",
+      "Hébergement et nom de domaine à prévoir",
+      "Délai de création : 3 semaines",
+      "2 x 495€ ou 3 x 330€",
     ],
   },
   {
-    name: "Site vitrine évolutif",
-    tagline: "Structure multi-pages avec back-office pour piloter vos contenus et leads.",
-    priceMonthly: 1999,
-    priceYearly: 1999 * 12 * 0.82,
+    name: "Site Web Vitrine",
+    tagline: "Vitrine complète jusqu’à 5 pages avec blog optionnel et expérience premium.",
     highlight: true,
     badge: "Populaire",
-    ctaLabel: "Planifier un workshop",
+    customLabel: "1 560€ TTC",
+    ctaLabel: "Je veux en parler !",
     ctaHref: process.env.NEXT_PUBLIC_CALENDLY_URL ?? "https://cal.com/calimo-agency/30min",
-    ctaNote: "Intéressé(e) par l'offre Site vitrine évolutif",
+    ctaNote: "Intéressé(e) par l'offre Site Web Vitrine",
     features: [
-      "Architecture 10-15 pages et sections blog/ressources modulaires",
-      "Back-office personnalisé (CMS complet, rôles, workflows)",
-      "Automations CRM, formulaires avancés et tracking évènementiel",
-      "Design system étendu avec composants réutilisables",
-      "Support prioritaire et évolutions continues (SLA 48 h)",
+      "Design sur-mesure",
+      "Jusqu’à 5 pages classiques",
+      "Blog (optionnel)",
+      "Fonctionnalités essentielles",
+      "Gestion des cookies",
+      "Tutoriels vidéos",
+      "Hébergement et nom de domaine à prévoir",
+      "Délai de création : 5 semaines",
+      "2 x 780€ ou 4 x 390€",
     ],
   },
   {
     name: "Application web",
     tagline: "Produit digital sur mesure : discovery, design, développement et lancement.",
     customLabel: "Sur devis",
-    priceMonthly: undefined,
-    priceYearly: undefined,
     ctaLabel: "Construire l'application",
     ctaHref: process.env.NEXT_PUBLIC_CALENDLY_URL ?? "https://cal.com/calimo-agency/30min",
     ctaNote: "Intéressé(e) par l'offre Application web",
