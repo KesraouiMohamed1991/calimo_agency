@@ -430,7 +430,6 @@ export default function Home() {
                   : priceValue
                     ? priceFormatter.format(priceValue)
                     : "Sur devis"
-                const priceSuffix = plan.customLabel ? "" : "/ mois"
                 const bookingUrl = buildSchedulingUrl(plan.ctaHref, plan.ctaNote, calendlyUrl)
 
                 return (
@@ -459,7 +458,6 @@ export default function Home() {
                     <div className="mt-6 space-y-3">
                       <div className="flex items-end gap-2">
                         <span className="text-3xl font-light text-foreground">{formattedPrice}</span>
-                        <span className="text-sm text-muted-foreground/80">{priceSuffix}</span>
                       </div>
                       <p className="text-sm text-muted-foreground leading-relaxed">{plan.tagline}</p>
                     </div>
