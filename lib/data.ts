@@ -531,8 +531,8 @@ export const posts: Post[] = [
 ]
 
 export const socials: Social[] = [
-  { name: "LinkedIn", handle: "calimo-agency", url: "https://www.linkedin.com/company/calimo-agency" },
-  { name: "Instagram", handle: "@calimo.agency", url: "https://www.instagram.com/calimo.agency" },
+  { name: "LinkedIn", handle: "calimo-agency", url: "https://www.linkedin.com/in/calimo-agency-aa1b13387/" },
+  { name: "Instagram", handle: "@calimo.agency", url: "https://www.instagram.com/wearecalimo/" },
   { name: "Dribbble", handle: "@calimo", url: "https://dribbble.com/calimo" },
 ]
 
